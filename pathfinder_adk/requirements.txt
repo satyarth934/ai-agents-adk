@@ -1,0 +1,17 @@
+# requirements.txt
+
+# The official Google Agent Development Kit
+google-adk
+
+# Google Maps client library for our custom tool
+googlemaps
+
+# For loading variables from the .env file
+python-dotenv
+
+# Geospatial libraries (we will add these back in later)
+osmnx
+geopandas
+folium
+shapely
+matplotlib

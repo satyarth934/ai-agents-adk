@@ -8,9 +8,11 @@ if __name__ == "__main__":
     # Using coordinates for Pittsburgh, USA - a city with interesting geography (rivers, parks, hills)
     # Coordinates are in (latitude, longitude) format
     
-    POINT_A = (40.457, -80.010) 
-    # POINT_B = (40.444, -79.953)
-    POINT_B = (40.453, -80.015)
+    # POINT_A = (40.457, -80.010) 
+    # POINT_B = (40.453, -80.015)
+
+    POINT_A = (37.8199109, -122.4785598)    # Golden gate bridge
+    POINT_B = (37.8590937, -122.4852507)    # Sausalito
 
     print("--- Starting Pathfinder Agent ---")
     print(f"Analyzing proposed road from {POINT_A} to {POINT_B}\n")
